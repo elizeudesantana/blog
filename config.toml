@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://example.com"
+base_url = "https://001-exemplo-zola.netlify.com"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -15,12 +15,12 @@ theme = "hyde"
 description = "Meu blog Maravilhoso"
 title = "Meu Blog"
 
+
 [extra]
+# Put all your custom variables here
 hyde_links = [
-    {url = "https://google.com", name = "Google.com"},
-    {url = "https://google.fr", name = "Google.fr"},
-    {url = "/about", name = "Sobre este blog"},
+    {url = "https://codeshow.com.br", name = "Codeshow"},
+    {url = "https://youtube.com/codeshowbr", name = "Youtube"},
+    {url = "/about", name = "Sobre Este Blog"},
 ]
-hyde_sticky = false
-hyde_theme = "theme-base-08"
-hyde_reverse = true
+hyde_theme = "theme-base-0d"
